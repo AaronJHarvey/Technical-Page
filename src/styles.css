@@ -48,11 +48,16 @@ nav {
 	text-decoration: none;
 	color: black;
 }
-
+/* xmp {
+	background-color: rgba(211, 201, 201, 0.553);
+	align-self: center;
+	align-content: center;
+} */
 main {
 	margin-left: 310px;
 	padding: 10px;
 }
+
 @media only screen and (max-width: 810px) {
 	#navbar {
 		position: absolute;
@@ -60,15 +65,19 @@ main {
 		padding: 0;
 		margin: 0;
 		width: 100%;
-		max-height: 200px;
+		max-height: 335px;
 		border: none;
 		z-index: 1;
 		border-bottom: 2px solid;
 	}
 
+	/* #navbar ul li:last-of-type {
+		border-bottom: none;
+	} */
+
 	main {
 		position: relative;
-		margin-top: 175px;
+		margin-top: 315px;
 		margin-left: 0;
 	}
 }
