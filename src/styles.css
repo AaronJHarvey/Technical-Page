@@ -3,6 +3,9 @@
 	font-family: sans-serif;
 }
 
+@media screen {
+}
+
 body {
 	font-size: 18px;
 }
@@ -20,6 +23,14 @@ nav {
 	height: 100%;
 	border-right: solid;
 	border-color: rgba(0, 22, 22, .4, green, blue, alpha);
+	background-color: rgba(191, 174, 174, 0.489);
+	color: black;
+}
+
+#navbar header {
+	margin: 10px;
+	text-align: center;
+	font-size: 2rem;
 }
 
 #navbar li {
