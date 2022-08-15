@@ -71,9 +71,9 @@ main {
 		border-bottom: 2px solid;
 	}
 
-	/* #navbar ul li:last-of-type {
+	#navbar ul li:last-of-type {
 		border-bottom: none;
-	} */
+	}
 
 	main {
 		position: relative;
