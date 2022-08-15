@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
 body {
 	font-size: 18px;
 }
@@ -19,4 +24,9 @@ nav {
 
 #navbar li {
 	border-top: 1px solid;
+}
+
+main {
+	margin-left: 310px;
+	padding: 10px;
 }
