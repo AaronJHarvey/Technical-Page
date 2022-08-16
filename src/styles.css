@@ -50,11 +50,17 @@ nav {
 }
 
 xmp {
-	max-width: 100%;
-	background-color: rgba(211, 201, 201, 0.553);
-	font-size: .75em;
-	font-family: monospace;
+	display: block;
 	text-align: left;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 0px;
+	font-size: .75em;
+	background-color: rgba(211, 201, 201, 0.553);
+	font-family: monospace;
 }
 
 main {
@@ -72,6 +78,10 @@ code {
 
 #raw-code-snippet {
 	background-color: white;
+}
+
+p {
+	padding-left: 15px;
 }
 
 @media only screen and (max-width: 810px) {
