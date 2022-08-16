@@ -56,11 +56,14 @@ xmp {
 	word-wrap: normal;
 	line-height: 2;
 	margin: 0;
+	margin-left: 15%;
 	padding: 0;
 	padding-bottom: 0px;
 	font-size: .75em;
 	background-color: rgba(211, 201, 201, 0.553);
 	font-family: monospace;
+	border-radius: 5px;
+	width: 600px;
 }
 
 main {
@@ -74,6 +77,23 @@ code {
 	font-family: monospace;
 	font-size: .9em;
 	border-radius: 5px;
+}
+
+#code-snippet-output {
+	display: block;
+	text-align: justify;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 2;
+	margin: 0;
+	margin-left: 15%;
+	padding: 0;
+	padding-bottom: 0px;
+	font-size: .75em;
+	background-color: rgba(211, 201, 201, 0.553);
+	font-family: monospace;
+	border-radius: 5px;
+	width: 600px;
 }
 
 #raw-code-snippet {
@@ -105,5 +125,21 @@ p {
 		position: relative;
 		margin-top: 315px;
 		margin-left: 0;
+	}
+
+	xmp {
+		display: block;
+		text-align: left;
+		word-break: normal;
+		word-wrap: normal;
+		line-height: 2;
+		margin: 0;
+		padding: 0;
+		padding-bottom: 0px;
+		font-size: .75em;
+		background-color: rgba(211, 201, 201, 0.553);
+		font-family: monospace;
+		border-radius: 5px;
+		max-width: 600px;
 	}
 }
