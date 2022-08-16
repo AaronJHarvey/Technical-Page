@@ -93,7 +93,7 @@ code {
 	background-color: rgba(211, 201, 201, 0.553);
 	font-family: monospace;
 	border-radius: 5px;
-	width: 600px;
+	max-width: 600px;
 }
 
 #raw-code-snippet {
